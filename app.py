@@ -1,12 +1,12 @@
 import streamlit as st
 from groq import Groq
 st.set_page_config(
-    page_title="BHAVANA J",
-    page_icon="🫶",
+    page_title="KAVYA SHREE",
+    page_icon="😉",
     layout="centered"
 )
 st.title("🎓 Student Profile Application")
-st.markdown("Developed by: BHAVANA J")
+st.markdown("Developed by: KAVYASHREE")
 try:
     client = Groq(api_key=st.secrets["GROQ_API_KEY"])
 except (KeyError, FileNotFoundError):
